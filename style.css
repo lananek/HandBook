@@ -1,0 +1,299 @@
+#footer{
+    
+    background-color: #2A2A72; 
+    margin-top: 20px; 
+    margin-bottom:0%;
+    font-size: 20px;
+    font-style: medium;
+    font-family: LUCIDA SANS UNICODE;
+    text-align: center;
+    color:#EAF6FF;
+   
+}
+body{
+   
+    background-color:#EAF6FF;
+    color:#2A2A72;
+  }
+
+#header{
+    width:100%;    
+    height: 100px;   
+    background-color: #EAF6FF;  
+    margin-bottom: 50px;
+    text-align: center;
+    color:#2A2A72;
+}
+button {
+    margin: 0 auto;
+    display: block;
+    background-color:#FFA400;
+    color:232528;
+    font-style: medium;
+    font-family: LUCIDA SANS UNICODE;
+  }
+  input{
+    margin: 0 auto;
+    display: block;
+    font-size: 28px;
+    background-color:#232528;
+    color:FFA400;
+    font-style: medium;
+    font-family: LUCIDA SANS UNICODE;
+  }
+.f1{
+    width: 100%;    
+    height: 50px;   
+    background-color: #EAF6FF; 
+    margin-top: 100px; 
+    margin-bottom:0%;
+    font-size: 15px;
+    font-style: medium;
+    font-family: LUCIDA SANS UNICODE;
+    text-align: center;
+    color:#232528;
+}
+.f2{
+    width: 100%;    
+    height: 50px;   
+    
+    margin-top: 90px; 
+    margin-bottom:0%;
+    font-size: 20px;
+    font-style: medium;
+    font-family: LUCIDA SANS UNICODE;
+    text-align: center;
+    color:#232528;
+}
+
+form{
+    font-size: 20px;
+    font-style: light;
+    font-family: jost;
+    color:#232528;
+    text-align: left;
+}
+aside{
+    position: static;
+    width: 350px;
+    text-align: left;
+    float: right;
+    background-color: #009FFD;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-style: light;
+}
+a{
+    font-size: 30px;
+    text-align: center;
+    font-style: medium;
+    font-family: LUCIDA SANS UNICODE;
+    color: #232528;
+}
+h3{
+    font-size: 30px;
+    font-style: medium;
+
+    font-family: LUCIDA SANS UNICODE;
+    color:#232528;
+}
+h1{
+        font-size: 40px;
+        font-style: bold;
+        text-align: center;
+        font-family: LUCIDA SANS UNICODE;
+}
+h2{
+    font-size: 30px;
+        font-style: medium;
+        text-align: center;
+        font-family: LUCIDA SANS UNICODE;
+        color:#232528;
+}
+details{ 
+    font-size: 25px;
+    font-style: medium;
+    font-family: LUCIDA SANS UNICODE;
+    color: #232528;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+pre{
+    width: 1150px;
+    font-size: 25px;
+    font-style: medium;
+    font-family: LUCIDA SANS UNICODE;
+    color: #232528;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+ul{
+    font-size: 35px;
+    font-style: medium;
+    font-family: LUCIDA SANS UNICODE;
+    color: #232528;
+}
+label{
+    font-size: 20px;
+    font-style: light;
+    font-family: LUCIDA SANS UNICODE;
+    color:#232528;
+    text-align: left;
+}
+
+h5{
+    font-size: 20px;
+    font-style: medium;
+    font-family: LUCIDA SANS UNICODE;
+    color:#232528;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.auform{
+    margin-top: 75px;
+    text-align: center;
+    font-size: 20px;
+    font-style: bold;
+    font-family: LUCIDA SANS UNICODE;
+    color:#3b685b;
+    border: 2px solid #1b3a31;
+    padding: 20px;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.b2{
+    color: #3b685b;
+    font-family: LUCIDA SANS UNICODE;
+    font-size: 20px;
+    margin-top: 20px;
+    background: #232528;
+}
+.aulink{
+    color: #78958c;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background:none;
+    z-index: 1050;
+    opacity: 0;
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; 
+    pointer-events: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.modal:target {
+    opacity: 1;
+	  pointer-events: auto; 
+    overflow-y: auto;
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 50px;
+}
+
+/* Стили для блока с контентом окна */ 
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #3b685b;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border-radius: .3rem;
+    outline: 0;
+}
+/* Стили заголовка окна */
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 2px solid #232528;
+}
+.htitle{
+    margin: 0px;
+}
+.modal-title {
+    font-family: LUCIDA SANS UNICODE;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/* Стили кнопки "х" ("Закрыть")  */
+.close {
+    float: right;
+    font-family: LUCIDA SANS UNICODE;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #1b3a31;
+    text-shadow: 0 1px 0 #78958c;
+    opacity: .5;
+    text-decoration: none;
+}
+/* Стили для закрывающей кнопки в фокусе или наведении */
+.close:focus, .close:hover {
+    color:#1b3a31;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+/* Стили блока основного содержимого окна */
+.modal-body {
+    font-family: LUCIDA SANS UNICODE;
+    font-style: normal;
+  position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+   
+}
+.b1{
+    font-style: medium;
+    font-family: LUCIDA SANS UNICODE;
+    background: #78958c;
+    margin: 0 auto;
+    display: block;
+    margin: 16px;
+}
+ h4{
+    font-size: 20px;
+    font-style: medium;
+    font-family: LUCIDA SANS UNICODE;
+    color:#232528;
+ }
